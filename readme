@@ -1,0 +1,7 @@
+In this challenge it is about a code quiz i created.
+I Set up the HTML structure and css and javascript for the quiz interface, including a start button, timer display, question display, answer choices, and an input field for initials.
+When the html loads The timer is set for 60sec.
+The first question is displayed.
+When a question is answered. it checks if the answer is correct by turning the option green. Red color is for wrong choices.
+Same for the next question.
+When the quiz is over. it display the final score. Allowing the player to save their initials and score.

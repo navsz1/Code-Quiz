@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Code Quiz</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="app">
+<h1> Code Quiz</h1>
+<div id ="js_timer">
+<div id  = "timer">
+    00:00
+</div>
+<button>pause</button>
+<div class="quiz">
+    <h2 id="question">What Is HTML</h2>
+    <div id="answer-buttons">
+        <button class="btn">Hypertext Markup Language</button>
+        <button class="btn">Hightext Markup Language</button>
+        <button class="btn">Hypertext Menu Language</button>
+        <button class="btn">Hypertext Markup Leaugue</button>
+    </div>
+    <button id="next-btn">Next</button>
+</div>
+  </div>
+  <div class="high-scores">
+    <h2>High Scores</h2>
+    <ol id="high-scores-list"></ol>
+  </div>
+  <div class="save-score">
+    <input type="text" id="initials-input" placeholder="Enter your initials">
+    <button id="save-btn">Save</button>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
